@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Healthy</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="identifiant">Identifiant</string>
+    <string name="password">Password</string>
+    <string name="valider">Valider</string>
+    <string name="menu">Menu</string>
+    <string name="rdv">RDV</string>
+    <string name="skip">Skip</string>
+</resources>
