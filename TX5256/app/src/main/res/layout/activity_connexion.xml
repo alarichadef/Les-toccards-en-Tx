@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="150dp"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:background="@color/white">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:id="@+id/login"
+        android:layout_gravity="center"
+        android:layout_marginBottom="15dp"
+        android:padding="10dp"
+        android:background="@color/bleu"
+        android:textColor="@color/white"
+        android:textSize="22dp"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/password"
+        android:id="@+id/password"
+        android:layout_gravity="center"
+        android:inputType="textPassword"
+        android:layout_marginBottom="15dp"
+        android:padding="10dp"
+        android:background="@color/bleu"
+        android:textColor="@color/white"
+        android:textSize="22dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/connexion"
+        android:layout_gravity="center"
+        android:textSize="22dp"
+        android:textColor="@color/white"
+        android:background="@color/bleu"
+        android:text="@string/connexion"
+        android:textAllCaps="false"
+        android:padding="10dp"/>
+
+</LinearLayout>

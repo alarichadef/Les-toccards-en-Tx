@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/infos"
+        android:text="@string/infos"
+        android:textColor="@color/bleu"
+        android:background="@color/white"
+        android:textSize="22dp"
+        android:layout_weight="1"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/maj"
+        android:text="@string/maj"
+        android:textColor="@color/white"
+        android:background="@color/bleu"
+        android:textSize="22dp"
+        android:layout_weight="1"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/recherche"
+        android:text="@string/recherche"
+        android:textColor="@color/bleu"
+        android:background="@color/white"
+        android:textSize="22dp"
+        android:layout_weight="1"
+        android:textAllCaps="false"/>
+
+</LinearLayout>
