@@ -6,7 +6,13 @@
     <string name="connexion">Connexion</string>
     <string name="infos">Informations Personnelles</string>
     <string name="info">Informations</string>
-    <string name="maj">Mise à jour des infos.</string>
+    <string name="maj">Mise à jour infos.</string>
+    <string name="majInf">MAJ infos.</string>
     <string name="recherche">Rechercher un patient</string>
     <string name="rdv">Rendez-vous</string>
+    <string name="allergies">Allergies</string>
+    <string name="maladies">Maladies</string>
+    <string name="traitements">Traitements</string>
+    <string name="notes">Notes</string>
+    <string name="poidstaille">Poids/Taille</string>
 </resources>

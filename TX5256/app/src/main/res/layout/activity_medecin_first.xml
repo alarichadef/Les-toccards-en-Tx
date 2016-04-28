@@ -10,8 +10,8 @@
         android:layout_height="wrap_content"
         android:id="@+id/infos"
         android:text="@string/infos"
-        android:textColor="@color/bleu"
-        android:background="@color/white"
+        android:textColor="@color/white"
+        android:background="@color/red"
         android:textSize="22dp"
         android:layout_weight="1"
         android:textAllCaps="false"/>
@@ -22,7 +22,7 @@
         android:id="@+id/maj"
         android:text="@string/maj"
         android:textColor="@color/white"
-        android:background="@color/bleu"
+        android:background="@color/green"
         android:textSize="22dp"
         android:layout_weight="1"
         android:textAllCaps="false"/>
@@ -32,8 +32,8 @@
         android:layout_height="wrap_content"
         android:id="@+id/recherche"
         android:text="@string/recherche"
-        android:textColor="@color/bleu"
-        android:background="@color/white"
+        android:textColor="@color/white"
+        android:background="@color/blue"
         android:textSize="22dp"
         android:layout_weight="1"
         android:textAllCaps="false"/>
