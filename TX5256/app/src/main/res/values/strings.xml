@@ -15,4 +15,7 @@
     <string name="traitements">Traitements</string>
     <string name="notes">Notes</string>
     <string name="poidstaille">Poids/Taille</string>
+    <string name="historique">Historique</string>
+    <string name="prendreRDV">Prendre RDV</string>
+    <string name="back">Back</string>
 </resources>
