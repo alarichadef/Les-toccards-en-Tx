@@ -9,7 +9,7 @@
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_weight="97">
+        android:layout_weight="6">
 
         <TextView
             android:layout_width="match_parent"
@@ -24,7 +24,8 @@
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_weight="3">
+        android:layout_weight="4"
+        android:layout_marginBottom="70dp">
 
         <Button
             android:layout_width="match_parent"
@@ -32,10 +33,17 @@
             android:id="@+id/historique"
             android:text="@string/historique"
             android:textAllCaps="false"
-            android:background="@color/red"
+            android:background="@color/blue"
             android:textColor="@color/white"
             android:textSize="22dp"
             android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:layout_marginBottom="70dp">
 
         <Button
             android:layout_width="match_parent"
@@ -43,7 +51,7 @@
             android:id="@+id/prendreRDV"
             android:text="@string/prendreRDV"
             android:textAllCaps="false"
-            android:background="@color/green"
+            android:background="@color/blue"
             android:textColor="@color/white"
             android:textSize="22dp"
             android:layout_weight="1"/>

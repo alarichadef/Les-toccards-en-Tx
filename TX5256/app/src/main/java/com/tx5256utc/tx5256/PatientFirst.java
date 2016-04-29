@@ -43,15 +43,6 @@ public class PatientFirst extends Activity {
             }
         });
 
-        Button majInfos = (Button)findViewById(R.id.maj);
-        majInfos.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent maj = new Intent(PatientFirst.this, MAJInfosPerso.class);
-                startActivity(maj);
-            }
-        });
-
         Button maladies = (Button)findViewById(R.id.maladies);
         maladies.setOnClickListener(new View.OnClickListener() {
             @Override

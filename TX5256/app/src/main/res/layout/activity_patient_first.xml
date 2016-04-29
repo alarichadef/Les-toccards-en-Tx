@@ -3,14 +3,14 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white">
+    android:background="@color/white"
+    android:paddingBottom="10dp">
 
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginBottom="25dp"
-        android:layout_weight="11">
+        android:layout_weight="42">
 
         <TextView
             android:layout_width="match_parent"
@@ -22,12 +22,11 @@
             android:gravity="center"/>
     </LinearLayout>
     <LinearLayout
-        android:orientation="horizontal"
+        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_weight="10"
-        android:paddingLeft="5dp"
-        android:paddingRight="5dp">
+        android:layout_weight="30"
+        android:layout_marginBottom="10dp">
 
         <Button
             android:layout_width="match_parent"
@@ -35,11 +34,10 @@
             android:id="@+id/info"
             android:text="@string/info"
             android:textAllCaps="false"
-            android:background="@color/blue"
-            android:textColor="@color/white"
+            android:background="@color/white"
+            android:textColor="@color/blue"
             android:textSize="22dp"
-            android:layout_weight="1"
-            android:layout_marginRight="5dp"/>
+            android:layout_weight="1"/>
 
         <Button
             android:layout_width="match_parent"
@@ -47,31 +45,16 @@
             android:id="@+id/rdv"
             android:text="@string/rdv"
             android:textAllCaps="false"
-            android:background="@color/green"
+            android:background="@color/blue"
             android:textColor="@color/white"
             android:textSize="22dp"
-            android:layout_weight="1"
-            android:layout_marginLeft="5dp"/>
+            android:layout_weight="1"/>
     </LinearLayout>
     <LinearLayout
-        android:orientation="horizontal"
+        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_weight="10"
-        android:paddingLeft="5dp"
-        android:paddingRight="5dp">
-
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/maj"
-            android:text="@string/majInf"
-            android:textAllCaps="false"
-            android:background="@color/red"
-            android:textColor="@color/white"
-            android:textSize="22dp"
-            android:layout_weight="1"
-            android:layout_marginRight="5dp"/>
+        android:layout_weight="15">
 
         <Button
             android:layout_width="match_parent"
@@ -82,16 +65,7 @@
             android:background="@color/red"
             android:textColor="@color/white"
             android:textSize="22dp"
-            android:layout_weight="1"
-            android:layout_marginLeft="5dp"/>
-    </LinearLayout>
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="10"
-        android:paddingLeft="5dp"
-        android:paddingRight="5dp">
+            android:layout_weight="1"/>
 
         <Button
             android:layout_width="match_parent"
@@ -99,11 +73,10 @@
             android:id="@+id/maladies"
             android:text="@string/maladies"
             android:textAllCaps="false"
-            android:background="@color/red"
-            android:textColor="@color/white"
+            android:background="@color/white"
+            android:textColor="@color/red"
             android:textSize="22dp"
-            android:layout_weight="1"
-            android:layout_marginRight="5dp"/>
+            android:layout_weight="1"/>
 
         <Button
             android:layout_width="match_parent"
@@ -114,16 +87,7 @@
             android:background="@color/red"
             android:textColor="@color/white"
             android:textSize="22dp"
-            android:layout_weight="1"
-            android:layout_marginLeft="5dp"/>
-    </LinearLayout>
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="10"
-        android:paddingLeft="5dp"
-        android:paddingRight="5dp">
+            android:layout_weight="1"/>
 
         <Button
             android:layout_width="match_parent"
@@ -131,11 +95,10 @@
             android:id="@+id/notes"
             android:text="@string/notes"
             android:textAllCaps="false"
-            android:background="@color/red"
-            android:textColor="@color/white"
+            android:background="@color/white"
+            android:textColor="@color/red"
             android:textSize="22dp"
-            android:layout_weight="1"
-            android:layout_marginRight="5dp"/>
+            android:layout_weight="1"/>
 
         <Button
             android:layout_width="match_parent"
@@ -146,7 +109,6 @@
             android:background="@color/red"
             android:textColor="@color/white"
             android:textSize="22dp"
-            android:layout_weight="1"
-            android:layout_marginLeft="5dp"/>
+            android:layout_weight="1"/>
     </LinearLayout>
 </LinearLayout>

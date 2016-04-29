@@ -6,10 +6,10 @@
     android:background="@color/white">
 
     <LinearLayout
-        android:orientation="horizontal"
+        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_weight="97">
+        android:layout_weight="72">
 
         <TextView
             android:layout_width="match_parent"
@@ -19,5 +19,40 @@
             android:textSize="15dp"
             android:textColor="@color/white"
             android:gravity="center"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="20">
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="60"
+        android:gravity="bottom">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ajouterTrai"
+            android:text="@string/ajouterTrai"
+            android:textColor="@color/white"
+            android:background="@color/red"
+            android:textSize="22dp"
+            android:textAllCaps="false"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editerTrai"
+            android:text="@string/editerTrai"
+            android:textColor="@color/white"
+            android:background="@color/red"
+            android:textSize="22dp"
+            android:textAllCaps="false"/>
     </LinearLayout>
 </LinearLayout>

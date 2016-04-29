@@ -21,4 +21,16 @@
             android:gravity="center"
             android:layout_weight="1"/>
     </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/maj"
+        android:text="@string/majInf"
+        android:textAllCaps="false"
+        android:background="@color/red"
+        android:textColor="@color/white"
+        android:textSize="22dp"
+        android:layout_weight="1" />
+
 </LinearLayout>
