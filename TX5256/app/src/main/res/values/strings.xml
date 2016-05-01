@@ -8,7 +8,7 @@
     <string name="infos">Informations Personnelles</string>
     <string name="info">Informations</string>
     <string name="maj">Mise à jour infos.</string>
-    <string name="majInf">MAJ infos.</string>
+    <string name="majInf">MAJ. informations personnelles</string>
     <string name="recherche">Rechercher un patient</string>
     <string name="rdv">Rendez-vous</string>
     <string name="allergies">Allergies</string>
@@ -19,10 +19,14 @@
     <string name="historique">Historique</string>
     <string name="prendreRDV">Prendre RDV</string>
     <string name="back">Back</string>
-    <string name="ajouterAl">Ajouter une allergie</string>
-    <string name="editerAl">Editer une allergie</string>
-    <string name="ajouterMal">Ajouter une maladie</string>
-    <string name="editerMal">Editer une maladie</string>
-    <string name="ajouterTrai">Ajouter un traitement</string>
-    <string name="editerTrai">Editer un traitement</string>
+    <string name="ajouterAl">Ajout allergie</string>
+    <string name="editerAl">Editer allergie</string>
+    <string name="ajouterMal">Ajout maladie</string>
+    <string name="editerMal">Editer maladie</string>
+    <string name="ajouterTrai">Ajouter traitement</string>
+    <string name="editerTrai">Editer traitement</string>
+    <string name="rechercher">Rechercher</string>
+    <string name="prenomPatient">Prénom du patient</string>
+    <string name="nomPatient">Nom du patient</string>
+    <string name="synthese">Synthèse</string>
 </resources>

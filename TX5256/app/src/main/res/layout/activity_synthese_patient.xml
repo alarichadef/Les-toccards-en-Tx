@@ -15,7 +15,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Patient"
+            android:text="Synthèse du patient"
             android:background="@color/blue"
             android:textSize="15dp"
             android:textColor="@color/white"
@@ -31,24 +31,15 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/info"
-            android:text="@string/infos"
+            android:id="@+id/synthese"
+            android:text="@string/synthese"
             android:textAllCaps="false"
-            android:background="@color/white"
-            android:textColor="@color/blue"
-            android:textSize="22dp"
-            android:layout_weight="1"/>
-
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/rdv"
-            android:text="@string/rdv"
-            android:textAllCaps="false"
-            android:background="@color/blue"
+            android:background="@color/red"
             android:textColor="@color/white"
             android:textSize="22dp"
-            android:layout_weight="1"/>
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"/>
+
     </LinearLayout>
     <LinearLayout
         android:orientation="vertical"
@@ -62,7 +53,7 @@
             android:id="@+id/allergies"
             android:text="@string/allergies"
             android:textAllCaps="false"
-            android:background="@color/red"
+            android:background="@color/blue"
             android:textColor="@color/white"
             android:textSize="22dp"
             android:layout_weight="1"/>
@@ -74,7 +65,7 @@
             android:text="@string/maladies"
             android:textAllCaps="false"
             android:background="@color/white"
-            android:textColor="@color/red"
+            android:textColor="@color/blue"
             android:textSize="22dp"
             android:layout_weight="1"/>
 
@@ -84,7 +75,7 @@
             android:id="@+id/traitements"
             android:text="@string/traitements"
             android:textAllCaps="false"
-            android:background="@color/red"
+            android:background="@color/blue"
             android:textColor="@color/white"
             android:textSize="22dp"
             android:layout_weight="1"/>
@@ -96,7 +87,7 @@
             android:text="@string/notes"
             android:textAllCaps="false"
             android:background="@color/white"
-            android:textColor="@color/red"
+            android:textColor="@color/blue"
             android:textSize="22dp"
             android:layout_weight="1"/>
 
@@ -106,7 +97,7 @@
             android:id="@+id/poidstaille"
             android:text="@string/poidstaille"
             android:textAllCaps="false"
-            android:background="@color/red"
+            android:background="@color/blue"
             android:textColor="@color/white"
             android:textSize="22dp"
             android:layout_weight="1"/>

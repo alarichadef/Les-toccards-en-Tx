@@ -1,41 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/white">
 
-    <Button
+    <LinearLayout
+        android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/infos"
-        android:text="@string/infos"
-        android:textColor="@color/white"
-        android:background="@color/red"
-        android:textSize="22dp"
-        android:layout_weight="1"
-        android:textAllCaps="false"/>
+        android:layout_height="match_parent"
+        android:layout_weight="6">
 
-    <Button
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Médecin"
+            android:background="@color/blue"
+            android:textSize="15dp"
+            android:textColor="@color/white"
+            android:gravity="center"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/maj"
-        android:text="@string/maj"
-        android:textColor="@color/white"
-        android:background="@color/green"
-        android:textSize="22dp"
-        android:layout_weight="1"
-        android:textAllCaps="false"/>
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:layout_marginBottom="70dp">
 
-    <Button
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/infosMedecin"
+            android:text="@string/infos"
+            android:textAllCaps="false"
+            android:background="@color/blue"
+            android:textColor="@color/white"
+            android:textSize="22dp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/recherche"
-        android:text="@string/recherche"
-        android:textColor="@color/white"
-        android:background="@color/blue"
-        android:textSize="22dp"
-        android:layout_weight="1"
-        android:textAllCaps="false"/>
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:layout_marginBottom="70dp">
 
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/rechercherPatient"
+            android:text="@string/recherche"
+            android:textAllCaps="false"
+            android:background="@color/blue"
+            android:textColor="@color/white"
+            android:textSize="22dp"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
 </LinearLayout>

@@ -7,20 +7,20 @@ import android.view.View;
 import android.widget.Button;
 
 /**
- * Created by bido on 29/04/16.
+ * Created by bido on 01/05/16.
  */
-public class InfosPerso extends Activity {
+public class ListePatients extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_infos_perso);
+        setContentView(R.layout.activity_liste_patients);
 
-        Button majInfos = (Button)findViewById(R.id.maj);
-        majInfos.setOnClickListener(new View.OnClickListener() {
+        Button skip = (Button)findViewById(R.id.skip);
+        skip.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent majInfosPerso = new Intent(InfosPerso.this, MAJInfosPerso.class);
-                startActivity(majInfosPerso);
+                Intent skip = new Intent(ListePatients.this, SynthesePatient.class);
+                startActivity(skip);
             }
         });
     }

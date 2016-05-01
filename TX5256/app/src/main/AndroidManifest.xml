@@ -29,6 +29,9 @@
         <activity android:name=".Traitements"/>
         <activity android:name=".Notes"/>
         <activity android:name=".PoidsTaille"/>
+        <activity android:name=".RechercherPatient"/>
+        <activity android:name=".ListePatients"/>
+        <activity android:name=".SynthesePatient"/>
     </application>
 
 </manifest>
