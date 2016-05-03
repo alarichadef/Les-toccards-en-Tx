@@ -6,10 +6,11 @@ import android.os.Bundle;
 /**
  * Created by bido on 29/04/16.
  */
-public class PoidsTaille extends Activity {
+public class NotesActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_poids_taille);
+        setContentView(R.layout.activity_notes);
+
     }
 }

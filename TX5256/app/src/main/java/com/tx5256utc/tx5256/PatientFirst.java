@@ -3,7 +3,6 @@ package com.tx5256utc.tx5256;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
@@ -38,7 +37,7 @@ public class PatientFirst extends Activity {
         allergies.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent allerg = new Intent(PatientFirst.this, Allergies.class);
+                Intent allerg = new Intent(PatientFirst.this, AllergiesActivity.class);
                 startActivity(allerg);
             }
         });
@@ -47,7 +46,7 @@ public class PatientFirst extends Activity {
         maladies.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent maladies = new Intent(PatientFirst.this, Maladies.class);
+                Intent maladies = new Intent(PatientFirst.this, MaladiesActivity.class);
                 startActivity(maladies);
             }
         });
@@ -56,7 +55,7 @@ public class PatientFirst extends Activity {
         traitements.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent traitements = new Intent(PatientFirst.this, Traitements.class);
+                Intent traitements = new Intent(PatientFirst.this, TraitementsActivity.class);
                 startActivity(traitements);
             }
         });
@@ -65,7 +64,7 @@ public class PatientFirst extends Activity {
         notes.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent notes = new Intent(PatientFirst.this, Notes.class);
+                Intent notes = new Intent(PatientFirst.this, NotesActivity.class);
                 startActivity(notes);
             }
         });
@@ -74,7 +73,7 @@ public class PatientFirst extends Activity {
         poidsTaille.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent poidsTaille = new Intent(PatientFirst.this, PoidsTaille.class);
+                Intent poidsTaille = new Intent(PatientFirst.this, PoidsTailleActivity.class);
                 startActivity(poidsTaille);
             }
         });

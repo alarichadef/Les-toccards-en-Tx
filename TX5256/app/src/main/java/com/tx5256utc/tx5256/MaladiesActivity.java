@@ -6,7 +6,7 @@ import android.os.Bundle;
 /**
  * Created by bido on 29/04/16.
  */
-public class Maladies extends Activity {
+public class MaladiesActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

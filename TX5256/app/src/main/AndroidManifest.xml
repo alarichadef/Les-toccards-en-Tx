@@ -23,12 +23,12 @@
         <activity android:name=".PatientFirst"/>
         <activity android:name=".RendezVous"/>
         <activity android:name=".InfosPerso"/>
-        <activity android:name=".Allergies"/>
+        <activity android:name=".AllergiesActivity"/>
         <activity android:name=".MAJInfosPerso"/>
-        <activity android:name=".Maladies"/>
-        <activity android:name=".Traitements"/>
-        <activity android:name=".Notes"/>
-        <activity android:name=".PoidsTaille"/>
+        <activity android:name=".MaladiesActivity"/>
+        <activity android:name=".TraitementsActivity"/>
+        <activity android:name=".NotesActivity"/>
+        <activity android:name=".PoidsTailleActivity"/>
         <activity android:name=".RechercherPatient"/>
         <activity android:name=".ListePatients"/>
         <activity android:name=".SynthesePatient"/>

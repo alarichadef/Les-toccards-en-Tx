@@ -22,6 +22,156 @@
             android:layout_weight="1"/>
     </LinearLayout>
 
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="90"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nom :"
+            android:background="@color/transparent"
+            android:textSize="15dp"
+            android:textColor="@color/blue"
+            android:gravity="left"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nomPersonne"
+            android:id="@+id/nomPersonne"
+            android:background="@color/transparent"
+            android:textSize="15dp"
+            android:textColor="@color/blue"
+            android:gravity="left"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="90"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Prenom :"
+            android:background="@color/transparent"
+            android:textSize="15dp"
+            android:textColor="@color/blue"
+            android:gravity="left"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/prenomPersonne"
+            android:id="@+id/prenomPersonne"
+            android:background="@color/transparent"
+            android:textSize="15dp"
+            android:textColor="@color/blue"
+            android:gravity="left"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="90"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Adresse :"
+            android:background="@color/transparent"
+            android:textSize="15dp"
+            android:textColor="@color/blue"
+            android:gravity="left"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/adresse"
+            android:id="@+id/adresse"
+            android:background="@color/transparent"
+            android:textSize="15dp"
+            android:textColor="@color/blue"
+            android:gravity="left"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="90"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Téléphone :"
+            android:background="@color/transparent"
+            android:textSize="15dp"
+            android:textColor="@color/blue"
+            android:gravity="left"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/telephone"
+            android:id="@+id/telephone"
+            android:background="@color/transparent"
+            android:textSize="15dp"
+            android:textColor="@color/blue"
+            android:gravity="left"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="90"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Genre :"
+            android:background="@color/transparent"
+            android:textSize="15dp"
+            android:textColor="@color/blue"
+            android:gravity="left"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/genre"
+            android:id="@+id/genre"
+            android:background="@color/transparent"
+            android:textSize="15dp"
+            android:textColor="@color/blue"
+            android:gravity="left"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

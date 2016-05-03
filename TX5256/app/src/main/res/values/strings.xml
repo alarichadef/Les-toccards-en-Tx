@@ -29,4 +29,9 @@
     <string name="prenomPatient">Prénom du patient</string>
     <string name="nomPatient">Nom du patient</string>
     <string name="synthese">Synthèse</string>
+    <string name="nomPersonne">Nom de la personne</string>
+    <string name="prenomPersonne">Prénom de la personne</string>
+    <string name="adresse">Adresse de la personne</string>
+    <string name="telephone">Téléphone de la personne</string>
+    <string name="genre">Genre de la personne</string>
 </resources>

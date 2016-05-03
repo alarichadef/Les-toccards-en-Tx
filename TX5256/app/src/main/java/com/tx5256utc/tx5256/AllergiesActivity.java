@@ -6,10 +6,10 @@ import android.os.Bundle;
 /**
  * Created by bido on 29/04/16.
  */
-public class Traitements extends Activity {
+public class AllergiesActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_traitements);
+        setContentView(R.layout.activity_allergies);
     }
 }

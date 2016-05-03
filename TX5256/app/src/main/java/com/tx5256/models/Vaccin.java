@@ -1,0 +1,40 @@
+package com.tx5256.models;
+
+public class Vaccin {
+	int id_vaccin;
+    String nom;
+    int duree_entre_deux_prises; //0 si injection unique
+    
+	/**
+	 * @param id_vaccin
+	 * @param nom
+	 * @param duree_entre_deux_prises
+	 */
+	public Vaccin(int id_vaccin, String nom, int duree_entre_deux_prises) {
+		super();
+		this.id_vaccin = id_vaccin;
+		this.nom = nom;
+		this.duree_entre_deux_prises = duree_entre_deux_prises;
+	}
+	
+	public int getId_vaccin() {
+		return id_vaccin;
+	}
+	public void setId_vaccin(int id_vaccin) {
+		this.id_vaccin = id_vaccin;
+	}
+	public String getNom() {
+		return nom;
+	}
+	public void setNom(String nom) {
+		this.nom = nom;
+	}
+	public int getDuree_entre_deux_prises() {
+		return duree_entre_deux_prises;
+	}
+	public void setDuree_entre_deux_prises(int duree_entre_deux_prises) {
+		this.duree_entre_deux_prises = duree_entre_deux_prises;
+	}
+    
+    
+}
